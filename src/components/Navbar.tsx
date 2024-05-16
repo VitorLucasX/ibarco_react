@@ -8,11 +8,11 @@ function Navbar() {
   const navigate = useNavigate()
 
   return (
-    <nav className="sticky top-0 z-50 bg-[url('./src/assets/landing_image.jpg')]	bg-no-repeat lg:bg-cover">
+    <nav className="sticky top-0 z-50 bg-[url('landing_image.jpg')]	bg-no-repeat lg:bg-cover">
       <div className="container mx-auto flex flex-wrap items-center justify-between px-6">
         <div className="w-full sticky top-0 flex justify-between lg:w-auto lg:static lg:justify-start h-[10vh] items-center">
           <a className="font-medium tracking-wider transition-colors cursor-pointer" onClick={() => navigate("/")}>
-            <img src="./src/assets/logo.png" alt="logo" className="w-32"/>
+            <img src="logo.png" alt="logo" className="w-32"/>
           </a>
           <div className="flex items-center">
           <button 
@@ -49,7 +49,7 @@ function Navbar() {
               </button>
             </li>
             <li className="py-2 flex text-white gap-x-1 uppercase font-medium items-center leading-snug hover:text-[#5badbb]">
-              <img src="./src/assets/br_flag.png" alt="br flag" className="w-5 h-5 rounded-full"/>BR
+              <img src="br_flag.png" alt="br flag" className="w-5 h-5 rounded-full"/>BR
             </li>
           </ul>
         </div>

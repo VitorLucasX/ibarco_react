@@ -50,13 +50,13 @@ function AllDestination() {
       transitionDuration={500}
       >
         <div className="xl:m-0 xl:mt-0 m-auto mt-8 mb-4 lg:pl-6">
-          <img src="./src/assets/adventure.png" alt="Island Tours" />
+          <img src="adventure.png" alt="Island Tours" />
         </div>
         <div className="xl:m-0 xl:mt-0 m-auto mt-8 mb-4 lg:pl-6">
-          <img src="./src/assets/island_tour.jpg" alt="Adventure" />
+          <img src="island_tour.jpg" alt="Adventure" />
         </div>
         <div className="xl:m-0 xl:mt-0 m-auto mt-8 mb-4 lg:pl-6">
-          <img src="./src/assets/city_tour.png" alt="City Tour" />
+          <img src="city_tour.png" alt="City Tour" />
         </div>
       </Carousel>
     </div>

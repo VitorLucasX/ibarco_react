@@ -2,7 +2,7 @@ import { FaFacebookF, FaInstagram, FaPhone, FaTwitter } from "react-icons/fa";
 
 function HeroDiv() {
   return (
-    <div className="bg-[url('./src/assets/landing_image.jpg')] bg-no-repeat bg-cover h-[80vh] -top-[10vh] relative text-white">
+    <div className="bg-[url('landing_image.jpg')] bg-no-repeat bg-cover h-[80vh] -top-[10vh] relative text-white">
       <div className="lg:w-2/3 mx-auto h-full flex flex-col justify-center">
         <h1 className="font-medium lg:text-5xl lg:text-left text-center">
           Encontre a viagem <br />

@@ -3,7 +3,7 @@ import { FaPhone } from "react-icons/fa";
 
 function Assistance() {
   return (
-    <div className="bg-[url('/src/assets/ajuda.jpg')] bg-no-repeat bg-cover h-[70vh] text-white">
+    <div className="bg-[url('ajuda.jpg')] bg-no-repeat bg-cover h-[70vh] text-white">
     <div className="h-full lg:w-2/3 mx-auto flex flex-col justify-center">
       <h1 className="font-medium lg:text-5xl text-3xl lg:text-left text-center">Precisa de Assistência?</h1>
       <p className="lg:text-2xl mt-6 mb-4 lg:text-left text-center">Preciso de ajuda? Ligue para nós ou deixe uma mensagem. Nossos agentes entrarão em contato em breve.</p>
@@ -26,7 +26,7 @@ function Assistance() {
             })}
           </div>
           <div className="flex items-center">
-            <img src="./src/assets/logo.png" alt="" className="w-20 p-2" />
+            <img src="logo.png" alt="" className="w-20 p-2" />
           </div>
           <p className="uppercase text-xs text-white">Com base na avaliação dos hóspedes</p>
         </span>

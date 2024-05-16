@@ -6,32 +6,32 @@ import { MdAccessTime } from "react-icons/md";
 const viagens_data = [
   {
     id: 1,
-    img: "./src/assets/islandia.jpg",
+    img: "islandia.jpg",
     title: "Phi Phi Island Tour",
   },
   {
     id: 2,
-    img: "./src/assets/racha.jpg",
+    img: "racha.jpg",
     title: "Racha Island Tour",
   },
   {
     id: 3,
-    img: "./src/assets/jamesbond.jpg",
+    img: "jamesbond.jpg",
     title: "James Bond Island Tour",
   },
   {
     id: 4,
-    img: "./src/assets/khai.jpg",
+    img: "khai.jpg",
     title: "Khai Island Tour",
   },
   {
     id: 5,
-    img: "./src/assets/karabi.jpg",
+    img: "karabi.jpg",
     title: "Karabi Island Tour",
   },
   {
     id: 6,
-    img: "./src/assets/similan.jpg",
+    img: "similan.jpg",
     title: "Similan Island Tour",
   }
 ]

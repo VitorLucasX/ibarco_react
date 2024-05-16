@@ -8,7 +8,7 @@ function Footer() {
         <div className="lg:flex items-start justify-between pb-8">
           <div className="lg:flex justify-between lg:w-2/3 m-auto lg:px-0 px-3">
             <div>
-              <img src="./src/assets/logo.png" alt="logo" className="w-32 mb-4" />
+              <img src="logo.png" alt="logo" className="w-32 mb-4" />
               <p className="text-xs text-white mt-2">Termos e Condições</p>
               <p className="text-xs text-white mt-2">Políticas de Privacidade</p>
               <div className="flex items-center pt-6 w-full lg:justify-between lg:gap-x-0 gap-x-6">
@@ -70,10 +70,10 @@ function Footer() {
       <div className="bg-black lg:w-1/3 h-full flex gap-x-2 items-center px-3">
         <p className="text-white">Como você pode pagar:</p>
         <span className="flex items-center gap-x-4">
-          <img src="./src/assets/paypal.png" alt="Logo da paypal" className="w-10 h-6 bg-white" />
-          <img src="./src/assets/maestro.png" alt="Logo da maestro" className="w-10 h-6 bg-white" />
-          <img src="./src/assets/visa.png" alt="Logo da visa" className="w-10 h-6 bg-white" />
-          <img src="./src/assets/mastercard.png" alt="Logo da mastercard" className="w-10 h-6 bg-white"/>
+          <img src="paypal.png" alt="Logo da paypal" className="w-10 h-6 bg-white" />
+          <img src="maestro.png" alt="Logo da maestro" className="w-10 h-6 bg-white" />
+          <img src="visa.png" alt="Logo da visa" className="w-10 h-6 bg-white" />
+          <img src="mastercard.png" alt="Logo da mastercard" className="w-10 h-6 bg-white"/>
         </span>
       </div>
       </section>
