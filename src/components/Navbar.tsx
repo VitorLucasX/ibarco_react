@@ -8,7 +8,7 @@ function Navbar() {
   const navigate = useNavigate()
 
   return (
-    <nav className="sticky top-0 z-50 bg-[url('landing_image.jpg')]	bg-no-repeat lg:bg-cover">
+    <nav className="sticky top-0 z-50 bg-[url('landing.jpg')]	bg-no-repeat lg:bg-cover">
       <div className="container mx-auto flex flex-wrap items-center justify-between px-6">
         <div className="w-full sticky top-0 flex justify-between lg:w-auto lg:static lg:justify-start h-[10vh] items-center">
           <a className="font-medium tracking-wider transition-colors cursor-pointer" onClick={() => navigate("/")}>

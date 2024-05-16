@@ -3,7 +3,7 @@ import { FaPhone } from "react-icons/fa";
 
 function Assistance() {
   return (
-    <div className="bg-[url('ajuda.jpg')] bg-no-repeat bg-cover h-[70vh] text-white">
+    <div className="bg-[url('/ajuda.jpg')] bg-no-repeat bg-cover h-[70vh] text-white">
     <div className="h-full lg:w-2/3 mx-auto flex flex-col justify-center">
       <h1 className="font-medium lg:text-5xl text-3xl lg:text-left text-center">Precisa de Assistência?</h1>
       <p className="lg:text-2xl mt-6 mb-4 lg:text-left text-center">Preciso de ajuda? Ligue para nós ou deixe uma mensagem. Nossos agentes entrarão em contato em breve.</p>
